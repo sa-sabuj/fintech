@@ -1,0 +1,46 @@
+
+[
+    {
+        "id": 1,
+        "name": "Accounting Services",
+        "price": "3000",
+        "description": "Public accounting includes a wide range of auditing, consultation, tax, and accounting tasks for governments, corporations, non-profits, small businesses, and individuals. Any skilled public accountant can perform most of these tasks.",
+        "img": "https://i.ibb.co/0Xvmy9N/services1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Tax Management",
+        "price": "10000",
+        "description": "Tax management refers to the management of finances, for the purpose of paying taxes. Tax Management deals with filing Returns in time, getting the accounts audited, deducting tax at source etc. Tax Management helps in avoiding payment of interest, penalty, prosecution.",
+        "img": "https://i.ibb.co/pXq7qnj/services2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Financial Planning",
+        "price": "15000",
+        "description": "Generally, it includes preparing a financial plan, comprehensive or modular, which could include: personal financial statements; and advice relating to personal risk management, insurance, savings and investments, estate planning, retirement planning and taxes.",
+        "img": "https://i.ibb.co/jvwKWt7/services3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Private Clients",
+        "price": "18000",
+        "description": "Services include money management, strategies for business owners, real estate financing, and custom lending solutions. The private banking team also offers retirement, succession, and estate planning, which help reduce taxes.",
+        "img": "https://i.ibb.co/0D9CRKv/services4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Entrepreneurs Services",
+        "price": "1000000",
+        "description": "Entrepreneurial services refer to those services that generate new market, product, and service ideas. Managerial services are the routine functions of the firm and facilitate the profitable execution of new opportunities.",
+        "img": "https://i.ibb.co/V3zt2yZ/services5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Professional Firms",
+        "price": "3000000",
+        "description": "Accounts payable (bills and payments) Accounts receivables (invoices and collection) Daily General ledger maintenance. Time tracking & job cost reporting.",
+        "img": "https://i.ibb.co/BPMsC9X/services6.jpg"
+    }
+]
+
