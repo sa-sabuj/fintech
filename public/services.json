@@ -2,44 +2,44 @@
 [
     {
         "id": 1,
-        "name": "Accounting Services",
-        "price": "3000",
-        "description": "Public accounting includes a wide range of auditing, consultation, tax, and accounting tasks for governments, corporations, non-profits, small businesses, and individuals. Any skilled public accountant can perform most of these tasks.",
+        "name": "Tax Advisory",
+        "price": "5000",
+        "description": "This is one of many areas of professional services where our Company is well ahead of the competition. Our Tax Consultancy team provides comprehensive taxation solutions for both individual and corporate clients.",
         "img": "https://i.ibb.co/0Xvmy9N/services1.jpg"
     },
     {
         "id": 2,
-        "name": "Tax Management",
+        "name": "VAT Consultancy",
         "price": "10000",
-        "description": "Tax management refers to the management of finances, for the purpose of paying taxes. Tax Management deals with filing Returns in time, getting the accounts audited, deducting tax at source etc. Tax Management helps in avoiding payment of interest, penalty, prosecution.",
+        "description": "We are experienced VAT Specialists who can provide precise information and advice regarding the procedure of registration, amount of VAT that needs to be paid and ensure all paper works relating to VAT and other taxes are up to date, thereby, minimizing the chance of any error.",
         "img": "https://i.ibb.co/pXq7qnj/services2.jpg"
     },
     {
         "id": 3,
-        "name": "Financial Planning",
-        "price": "15000",
-        "description": "Generally, it includes preparing a financial plan, comprehensive or modular, which could include: personal financial statements; and advice relating to personal risk management, insurance, savings and investments, estate planning, retirement planning and taxes.",
+        "name": "Business Audit",
+        "price": "50000",
+        "description": "The financial audit service is not limited to the issuance of an audit report on the Annual Accounts with a standard maximum quality. It is designed to identify potential risks and areas for improvement in internal accounting control processes and administration of our customers.",
         "img": "https://i.ibb.co/jvwKWt7/services3.jpg"
     },
     {
         "id": 4,
-        "name": "Private Clients",
-        "price": "18000",
-        "description": "Services include money management, strategies for business owners, real estate financing, and custom lending solutions. The private banking team also offers retirement, succession, and estate planning, which help reduce taxes.",
+        "name": "Business Advisory",
+        "price": "300000",
+        "description": "We offer business advisory services such as business strategy and planning, operational reviews, board effectiveness, benchmarking and more.",
         "img": "https://i.ibb.co/0D9CRKv/services4.jpg"
     },
     {
         "id": 5,
-        "name": "Entrepreneurs Services",
-        "price": "1000000",
-        "description": "Entrepreneurial services refer to those services that generate new market, product, and service ideas. Managerial services are the routine functions of the firm and facilitate the profitable execution of new opportunities.",
+        "name": "Company Registration",
+        "price": "10000",
+        "description": "Taxsense makes the process of starting your business as easy as possible by removing unnecessary fees, taking care of lengthy paperwork, handling legal complexities as well as granting you access to one of the greatest startup ecosystems in the world.",
         "img": "https://i.ibb.co/V3zt2yZ/services5.jpg"
     },
     {
         "id": 6,
-        "name": "Professional Firms",
-        "price": "3000000",
-        "description": "Accounts payable (bills and payments) Accounts receivables (invoices and collection) Daily General ledger maintenance. Time tracking & job cost reporting.",
+        "name": "Licensing Service",
+        "price": "30000",
+        "description": "All sorts of corporate licenses and agreements required to operate a business and memberships of respective associations can be obtained by Taxsense Limited.",
         "img": "https://i.ibb.co/BPMsC9X/services6.jpg"
     }
 ]

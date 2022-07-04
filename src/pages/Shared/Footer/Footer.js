@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = () => {
     return (
         <footer>
-            <h2>Coppyright @ </h2>
+            <h2 className='text-center p-5'>Coppyright @ </h2>
         </footer>
     );
 };
