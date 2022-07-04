@@ -1,10 +1,14 @@
 import React from 'react';
+import Header from '../Header/Header';
 import './Footer.css';
 
 const Footer = () => {
+    const today = new Date();
+    const year = today.getFullYear();
     return (
-        <footer>
-            <h2 className='text-center p-5'>Coppyright @ </h2>
+        <footer className=''>
+            
+            <h2 className='text-center p-5'>Coppyright @ {year}</h2>
         </footer>
     );
 };
