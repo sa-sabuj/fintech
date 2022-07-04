@@ -5,14 +5,14 @@ const Corporate = ({ corporate }) => {
     const { price, name, description, img } = corporate;
     return (
         <div className='col-sm-12 col-md-6 col-lg-4 g-5 '>
-            <div class="card text-center p-2" >
-                <img src={img} class="card-img-top" alt="..." />
-                <div class="card-body">
-                    <h5 class="card-title">{name}</h5>
+            <div className="card text-center p-2" >
+                <img src={img} className="card-img-top" alt="..." />
+                <div className="card-body">
+                    <h5 className="card-title">{name}</h5>
                     
-                    <p class="card-text">{description}</p>
-                    <h5 class="card-title">Price: ${price}</h5>
-                    <button class="btn btn-primary">Book: {name}</button>
+                    <p className="card-text">{description}</p>
+                    <h5 className="card-title">Price: ${price}</h5>
+                    <button className="btn btn-primary">Book: {name}</button>
                 </div>
             </div>
         </div>
