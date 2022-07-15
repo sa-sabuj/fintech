@@ -11,14 +11,14 @@
         "id": 2,
         "name": "VAT Consultancy",
         "price": "10000",
-        "description": "We are experienced VAT Specialists who can provide precise information and advice regarding the procedure of registration, amount of VAT that needs to be paid and ensure all paper works relating to VAT and other taxes are up to date, thereby, minimizing the chance of any error.",
+        "description": "VAT Specialists who can provide precise information and advice regarding the procedure of registration, amount of VAT that needs to be paid and ensure all paper works relating to VAT and other taxes are up to date.",
         "img": "https://i.ibb.co/pXq7qnj/services2.jpg"
     },
     {
         "id": 3,
         "name": "Business Audit",
         "price": "50000",
-        "description": "The financial audit service is not limited to the issuance of an audit report on the Annual Accounts with a standard maximum quality. It is designed to identify potential risks and areas for improvement in internal accounting control processes and administration of our customers.",
+        "description": "Audit service is not limited to the issuance of an audit report on the Annual Accounts with a standard maximum quality. It is designed to identify potential risks and areas for improvement in internal accounting control",
         "img": "https://i.ibb.co/jvwKWt7/services3.jpg"
     },
     {
@@ -32,7 +32,7 @@
         "id": 5,
         "name": "Company Registration",
         "price": "10000",
-        "description": "Taxsense makes the process of starting your business as easy as possible by removing unnecessary fees, taking care of lengthy paperwork, handling legal complexities as well as granting you access to one of the greatest startup ecosystems in the world.",
+        "description": "Starting business as easy as possible by removing unnecessary fees, taking care of lengthy paperwork, legal complexities done by us.",
         "img": "https://i.ibb.co/V3zt2yZ/services5.jpg"
     },
     {

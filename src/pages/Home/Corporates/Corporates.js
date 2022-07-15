@@ -7,12 +7,12 @@ import Corporate from '../Corporate/Corporate';
 
 
 
-
+ 
 
 const corporates = [
     {id:1, name: 'Trade License', price: '5000tk', description: 'Accessories, E-Commerce, Electric & Electronics, Pharmacy & Store', img:  package1},    
     {id:2, name: 'Trademark', price: '15000tk', description: 'Logo, Mark Name, Product,  Service, Certification Mark, Collective Mark', img:  package2},    
-    {id:3, name: 'IRC & ERC', price: '50000tk', description: 'Chamber of Commerce Membership, Trade License, TIN, Memorandum of Article, Company Registration', img:  package3}
+    {id:3, name: 'IRC & ERC', price: '50000tk', description: 'Trade License, TIN, Memorandum of Article, Company Registration', img:  package3}
 ]
 const Corporates = () => {
     return (
