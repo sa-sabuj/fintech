@@ -16,7 +16,7 @@ const corporates = [
 ]
 const Corporates = () => {
     return (
-        <div className='container'>
+        <div id='packages' className='container'>
             <h2 className='text-center p-5'>Corporate Packages </h2>
             <div className="row">
                 {
