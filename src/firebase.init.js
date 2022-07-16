@@ -6,12 +6,12 @@ import { getAuth } from 'firebase/auth';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyD-ZUJz2VrHphdbcPf0ECgx7Zlkxf_dM1s",
-    authDomain: "fintech-f56cd.firebaseapp.com",
-    projectId: "fintech-f56cd",
-    storageBucket: "fintech-f56cd.appspot.com",
-    messagingSenderId: "43018216851",
-    appId: "1:43018216851:web:b47674a2d8eb4b69897466"
+    apiKey:process.env.REACT_APP_apiKey,
+    authDomain:process.env.REACT_APP_authDomain,
+    projectId:process.env.REACT_APP_projectId,
+    storageBucket:process.env.REACT_APP_storageBucket,
+    messagingSenderId:process.env.REACT_APP_messagingSenderId,
+    appId:process.env.REACT_APP_appId,
 };
 
 // Initialize Firebase
