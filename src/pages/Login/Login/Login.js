@@ -1,10 +1,47 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import { Button, Form } from 'react-bootstrap';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Login = () => {
+
+    const emailRef = useRef('');
+    const passwordRef = useRef('');
+    const navigate = useNavigate();
+
+    const handleSubmit = event =>{
+        event.preventDefault();
+        const email = emailRef.current.value;
+        const password = passwordRef.current.value;
+        console.log(email, password)
+    }
+    const navigateRegister = event =>{
+        navigate('/register')
+    }
+
     return (
-        <div>
-            <h2>Please Log In</h2>
+        <div className='container w-50 mx-auto mt-5'>
+            <h2 className='text-center mt-5 text-primary'>Please LogIn</h2>
+            <Form onSubmit={handleSubmit}>
+                <Form.Group className="mb-3" controlId="formBasicEmail">
+                    <Form.Label>Email address</Form.Label>
+                    <Form.Control ref={emailRef} type="email" placeholder="Enter email" required />
+
+                </Form.Group>
+
+                <Form.Group className="mb-3" controlId="formBasicPassword">
+                    <Form.Label>Password</Form.Label>
+                    <Form.Control ref={passwordRef} type="password" placeholder="Password" required />
+                </Form.Group>
+                <Form.Group className="mb-3" controlId="formBasicCheckbox">
+                    <Form.Check type="checkbox" label="Check me out" />
+                </Form.Group>
+                <Button variant="primary" type="submit">
+                    Submit
+                </Button>
+            </Form>
+            <p className='mt-2'>New to Fintech? <Link to="/register" className='text-danger text-decoration-none' onClick={navigateRegister}>Please Register!!!!</Link></p>
         </div>
+
     );
 };
 
