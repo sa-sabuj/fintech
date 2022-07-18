@@ -1,10 +1,8 @@
 import React from 'react';
-import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 
-const ServiceDetail = () => {
+const Checkout = () => {
     const {serviceId} = useParams();
-    useEffect();
     return (
         <div className='col-sm-12 col-md-6 col-lg-4 g-5 w-50 mx-auto'>
             <div className="card text-center p-2" >
@@ -20,4 +18,5 @@ const ServiceDetail = () => {
     );
 };
 
-export default ServiceDetail;
+
+export default Checkout;
