@@ -6,6 +6,7 @@ import { useSendPasswordResetEmail, useSignInWithGithub, useSignInWithGoogle } f
 import auth from '../../../firebase.init';
 import { useNavigate } from 'react-router-dom';
 import gitHubIcon from '../../../images/icon/github.png'
+import Loading from '../../Shared/Loading/Loading';
 
 
 
@@ -16,6 +17,9 @@ const SocialLogin = () => {
     const navigate = useNavigate();
     let errorElement;
     
+    if(loading){
+        return <Loading></Loading>
+    }
 
     if (error || error1) {
         errorElement = <p className='text-danger'>Error: {error?.message} {error1?.message}</p>
