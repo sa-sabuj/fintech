@@ -10,7 +10,7 @@ const ServiceDetail = () => {
                 <div className="card-body">
                     <h2>Service Detail</h2>
                     <h5 className="card-title">{serviceId}</h5>
-                   
+                    <button className='btn btn-primary'>Payment</button>
 
                 </div>
             </div>
