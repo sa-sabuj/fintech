@@ -12,7 +12,7 @@ const Corporate = ({ corporate }) => {
                     
                     <p className="card-text">{description}</p>
                     <h5 className="card-title">Price: ${price}</h5>
-                    <button className="btn btn-primary">Book: {name}</button>
+                    {/* <button className="btn btn-primary">Book: {name}</button> */}
                 </div>
             </div>
         </div>

@@ -52,9 +52,6 @@ const Blogs = () => {
                     </Card.Text>
                 </Card.Body>
             </Card>
-           
-        
-
         </div>
     );
 };
