@@ -1,3 +1,19 @@
+# My website name & live link
+Fintec
+Live link: https://fintech-f56cd.web.app/
+GitHub Link: https://github.com/sa-sabuj/fintech
+
+# Fitures
+This is an individual accounting & finance service provider website. Hear you can find every service related to start a business.
+
+# Technology that i use to build this :-
+1: react
+2: React-bootstrap
+3: react router
+4: React router hools
+5: react firebase hooks
+6: firebase
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
