@@ -24,7 +24,7 @@ const Login = () => {
         loading,
         error,
     ] = useSignInWithEmailAndPassword(auth);
-    const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(
+    const [sendPasswordResetEmail] = useSendPasswordResetEmail(
         auth
     );
     if (loading) {
